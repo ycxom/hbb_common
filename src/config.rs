@@ -66,7 +66,6 @@ lazy_static::lazy_static! {
         (keys::OPTION_CUSTOM_RENDEZVOUS_SERVER.to_owned(), "rustdesk.ycxom.com".to_owned()),
         (keys::OPTION_RELAY_SERVER.to_owned(), "rustdesk.ycxom.com".to_owned()),
         (keys::OPTION_API_SERVER.to_owned(), "http://rustdesk.ycxom.com:21114".to_owned()),
-        (keys::OPTION_KEY.to_owned(), "SvoHrPExPV8HTi9cHlSK3jui1gWJftQ6g+A5K3I+ugI=".to_owned()),
         (keys::OPTION_ALLOW_HTTPS_21114.to_owned(), "Y".to_owned()),
     ]));
     pub static ref OVERWRITE_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
